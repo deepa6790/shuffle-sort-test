@@ -1,26 +1,56 @@
 .row {
   height: 192px;
-  font-size: 38px;
-  line-height: 200px;
+
   padding: 0px;
+}
 
-  color: #fff;
+@media only screen and (max-width: 600px) {
+  .lblue {
+    border-left: solid 6px #6f98a8;
+  }
+  .mblue {
+    border-left: solid 6px #2b8ead;
+  }
+  .dblue {
+    border-left: solid 6px #2f454e;
+  }
+  .grey {
+    border-left: solid 6px #bfbfbf;
+  }
   .card-content {
-    height: 200px;
-
+    background-color: #efefef;
+    border-bottom: solid 2px #2b8ead;
+    margin-left: 12px;
+    height: 50px;
+    color: #000;
+    line-height: 50px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .card-content {
     background-color: #72c3dc;
     border-bottom: solid 2px #2b8ead;
+    height: 200px;
+    color: #fff;
+    margin-left: 0px;
+    font-size: 38px;
+    line-height: 200px;
   }
   .lblue {
     background-color: #6f98a8;
+    border-left: 0px;
   }
   .mblue {
     background-color: #2b8ead;
+    border-left: 0px;
   }
   .dblue {
     background-color: #2f454e;
+    border-left: 0px;
   }
   .grey {
     background-color: #bfbfbf;
+    border-left: 0px;
   }
 }
