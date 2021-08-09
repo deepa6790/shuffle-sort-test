@@ -1,0 +1,26 @@
+.row {
+  height: 192px;
+  font-size: 38px;
+  line-height: 200px;
+  padding: 0px;
+
+  color: #fff;
+  .card-content {
+    height: 200px;
+
+    background-color: #72c3dc;
+    border-bottom: solid 2px #2b8ead;
+  }
+  .lblue {
+    background-color: #6f98a8;
+  }
+  .mblue {
+    background-color: #2b8ead;
+  }
+  .dblue {
+    background-color: #2f454e;
+  }
+  .grey {
+    background-color: #bfbfbf;
+  }
+}
